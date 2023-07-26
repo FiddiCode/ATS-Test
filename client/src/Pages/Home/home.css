@@ -1,0 +1,13 @@
+.home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.home .icon{
+    height: 50px;
+    width: 50px;
+}

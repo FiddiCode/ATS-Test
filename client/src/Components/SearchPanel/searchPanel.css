@@ -1,0 +1,59 @@
+.searchPanel{
+    height: 45vh;
+    width: auto;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.data{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.fields{
+    width: 31vw;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+select {
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+label{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(20, 20, 41) ;
+}
+
+.buttons{
+    width: 95%;
+    display: flex;
+    justify-content: end;
+}
+
+button{
+    width:80px;
+    height: 30px;
+    margin: 7px;
+    border-radius: 5px;
+    background-color:rgb(20, 20, 41) ;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
